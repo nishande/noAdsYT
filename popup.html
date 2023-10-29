@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 250px;
+            box-sizing: border-box;
+            transition: background-color 0.5s;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;  /* Adjusted margin */
+            text-align: center;
+            font-weight: 600;
+            color: #4A90E2;  /* A pleasant blue */
+        }
+
+        #icon {
+            margin-bottom: 10px;
+            width: 48px;  /* You can adjust as per your preference */
+            height: 48px;  /* You can adjust as per your preference */
+        }
+
+        #loveText {
+            font-size: 18px;
+            text-align: center;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;  /* Make the text italic */
+            color: #7D7D7D;  /* Neutral color for the footer */
+        }
+
+        #loveText span {
+            color: red;
+            margin-right: 5px;
+            animation: heartbeat 1s infinite;
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        body:hover {
+            background-color: #e0e0e0; /* Darkens the background slightly on hover */
+        }
+    </style>
+</head>
+<body>
+    <img id="icon" src="icon-48x48.png" alt="Extension Icon"> <!-- Assuming your icon is named 'icon.png' -->
+    <h1>Experience Ad-free YouTube</h1>
+    <div id="loveText">
+        Made with <span>❤️</span> by Nishan
+    </div>
+</body>
+</html>
