@@ -4,7 +4,7 @@ Dive into a seamless YouTube experience! With **noAdsYT**, enjoy your favorite Y
 
 ## 📥 Installation
 
-1. [Download the ZIP file from GitHub.](#https://github.com/nishande/noAdsYT/releases/)
+1. [Download the ZIP file from GitHub.](https://github.com/nishande/noAdsYT/releases/)
 2. Unzip the downloaded folder.
 3. In your browser (Chrome/Edge):
    - Go to the extensions page.
