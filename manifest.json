@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "noAdsYT",
-    "version": "2.0",
+    "version": "2.5",
     "description": "Experience YouTube without distractions. Say goodbye to ads and enjoy your favorite videos seamlessly.",
     "permissions": ["activeTab"],
     "host_permissions":["https://www.youtube.com/*"],
