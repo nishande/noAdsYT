@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "noAdsYT",
+    "version": "2.5",
+    "description": "Experience YouTube without distractions. Say goodbye to ads and enjoy your favorite videos seamlessly.",
+    "permissions": ["activeTab"],
+    "host_permissions":["https://www.youtube.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["main.js","flashMessage.js"],
+        "css":["flashMessage.css"]
+        
+      }
+    ],
+    "icons": {
+      "16": "icon-16x16.png",
+      "48": "icon-48x48.png",
+      "120": "icon-120x120.png"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon-16x16.png",
+        "48": "icon-48x48.png",
+        "120": "icon-120x120.png"
+      },
+      "default_popup": "popup.html"
+    }
+  }
+  
